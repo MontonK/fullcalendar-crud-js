@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FullCalendar CRUD Example</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen flex items-center justify-center">
+
+    <div class="w-full max-w-4xl p-4">
+        <!-- h1 อยู่ด้านบนของปฏิทิน -->
+        <h1 class="text-3xl font-bold text-center mb-6">ปฏิทินกิจกรรม</h1>
+
+        <!-- ย่อขนาดและทำให้ responsive -->
+        <div id='calendar' class="bg-white shadow-lg rounded-lg p-4 h-[600px] md:h-[700px]"></div>
+    </div>
+
+    <!-- JS ของ FullCalendar -->
+    <script src='/fullcalendar/dist/index.global.min.js'></script>
+    <!-- ไฟล์ JS ของคุณ -->
+    <script src='script.js'></script>
+
+</body>
+</html>
